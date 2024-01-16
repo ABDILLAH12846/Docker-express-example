@@ -8,7 +8,7 @@ const port = 8000 || process.env.PORT;
 const connection = mysql.createConnection({
   host: 'db4free.net',
   user: 'kelompokdevops', // Ganti dengan username MySQL Anda
-  password: 'Zakyirhamna=123', // Ganti dengan password MySQL Anda
+  password: '', // Ganti dengan password MySQL Anda
   database: 'kelompokdevops', // Ganti dengan nama database Anda
 });
 
